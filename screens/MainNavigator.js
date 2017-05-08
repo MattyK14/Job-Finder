@@ -23,4 +23,9 @@ export const MainNavigator = TabNavigator({
       }
     })
   }
+}, {
+  lazy: true,
+  navigationOptions: {
+    tabBarVisible: false
+  }
 });
